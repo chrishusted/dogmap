@@ -79,10 +79,6 @@ dogmap.run_bwa_mem2_table(myData) # run it from the table...
 dogmap.run_mdspark(myData)
 
 dogmap.run_bqsr(myData)
-dogmap.run_haplotypecaller(myData)
-
-# clean up and get elapsed time!
-dogmap.remove_tmp_dir(myData)
 
 
 cmd = 'touch %s ' % myData['completeToken']
