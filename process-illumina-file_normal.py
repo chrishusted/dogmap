@@ -80,6 +80,8 @@ dogmap.run_mdspark(myData)
 
 dogmap.run_bqsr(myData)
 
+# clean up and get elapsed time!
+dogmap.remove_tmp_dir(myData)
 
 cmd = 'touch %s ' % myData['completeToken']
 print(cmd,flush=True)
