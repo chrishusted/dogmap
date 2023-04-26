@@ -60,7 +60,6 @@ if os.path.isfile(myData['logFileName']) is True:
     print('ERROR!!!')
     print('%s exists.  Do you really want to rerun this pipeline?' % myData['logFileName'] )
     print('ERROR!!!')
-    sys.exit()
 
 myData['logFile'] = open(myData['logFileName'],'w')
 
